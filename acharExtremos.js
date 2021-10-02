@@ -13,6 +13,10 @@ function acharExtremos(v) {
     for (i = 1; i < v.length; i++) {
         if (v[i] < menor) {
             menor = v[i];
+            indiceMenor = i;
+        }
+        if (v[i] > maior) {
+            maior = v[i];
             indiceMaior = i;
         }
     }
